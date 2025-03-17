@@ -1,0 +1,42 @@
+body {
+  background-color: rgb(233, 199, 154);
+}
+
+h1 {
+  padding: 1rem;
+  border: solid 2px green;
+  background-color: bisque;
+  border-radius: 4rem;
+}
+
+form {
+  border: 2px green dotted;
+  border-radius: 2rem;
+  background-color: blanchedalmond;
+  padding: 2rem;
+  width: 25%;
+}
+
+.bottone {
+  transition: transform 0.1s ease-in-out;
+}
+
+.bottone:active {
+  transform: scale(0.9) !important;
+}
+
+#animalettiSalvati {
+  border: 2px green dotted;
+  border-radius: 2rem;
+  background-color: blanchedalmond;
+  padding: 2rem;
+}
+
+.pet-info {
+  padding: 1rem;
+  background-color: rgb(253, 253, 253);
+  border: 2px solid rgb(113, 158, 47);
+  line-height: 0.5rem;
+  border-radius: 2rem;
+  margin-bottom: 1rem;
+}
