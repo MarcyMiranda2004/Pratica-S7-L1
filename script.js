@@ -96,9 +96,6 @@ petForm.addEventListener("submit", (e) => {
   `;
   petForm.reset();
 
-  const lastPet = pets[pets.length - 1];
-  const previousPet = pets[pets.length - 2];
-
   if (pets.length > 1) {
     const lastPet = pets[pets.length - 1];
     const previousPet = pets[pets.length - 2];
